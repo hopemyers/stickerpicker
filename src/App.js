@@ -60,7 +60,7 @@ class App extends Component {
 
         <InputComp submit={this.getGifs}></InputComp>
         <div className = "display">
-          {this.state.gifs.map( gif => <div className="box"><p><img width="200px" height="200px" src={gif.images.downsized.url}></img></p></div> )}
+          {this.state.gifs.map( gif => <div className="box"><p><img width="200px" height="200px" src={gif.images.downsized.url} alt="gifs"></img></p></div> )}
         </div>
 
 
