@@ -1,0 +1,92 @@
+/*HEADLINE COMPONENT*/
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+.headline{
+  margin:auto;
+  text-align: center;
+  background-image: url("images/rainbow.jpg");
+  background-size: cover;
+  font-family: 'VT323';
+}
+.logo{
+  width:30px;
+  height:46px;
+  background-color: red;
+  display:inline-block;
+  margin-right:30px;
+}
+.headline h1{
+  display:inline-block;
+  font-size: 4em;
+}
+
+/*INPUT COMPONENT*/
+
+.inputComp{
+  margin: auto;
+  text-align: center;
+  height:130px;
+}
+.inputComp input{
+  margin-top:40px;
+  font-size: 2.5em;
+  margin-right: 10px;
+  font-family: 'VT323';
+}
+.inputComp button{
+  margin-top:40px;
+  font-size: 2.5em;
+  background-image: url("images/rainbow.jpg");
+  font-family: 'VT323';
+}
+
+/*DISPLAY COMPONENT*/
+
+.display{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 660px;
+  margin: auto;
+  margin-top:50px;
+}
+
+.display .box{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  /* background-color: red; */
+  margin:10px;
+  padding-top: 85px;
+  box-sizing: border-box;
+}
+
+.display .box p{
+  background-color: white;
+  padding: 0 6px;
+  margin-top: 100px;
+  display: inline;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+
+/*this next part is just for us to see the component better while*/
+/*buidling it*/
+
+/* .headline{
+  outline: 1px lightgrey solid;
+  outline-offset:-20px;
+}
+
+.inputComp{
+  outline: 1px lightgrey solid;
+  outline-offset:-20px;
+}
+
+.display{
+  outline: 1px lightgrey solid;
+  outline-offset:30px;
+} */
